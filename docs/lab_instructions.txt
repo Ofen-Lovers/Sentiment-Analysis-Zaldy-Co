@@ -1,0 +1,174 @@
+​
+
+Week 14 – Sentiment Analysis Final Project
+Learning Outcomes
+By the end of this session, students will be able to:
+1.​ To understand sentiment analysis
+2.​ To perform text normalization, standardization, feature extraction for sentiment analysis through
+example
+3.​ To identify and understand some lexicons for sentiment analysis
+4.​ To use some of lexicons for sentiment analysis
+5.​ Apply and use the different techniques for sentiment Analysis.
+
+Introduction
+In this project, your group will collect at least 500 Facebook/youtube/twitter/tiktok short
+comments from a specific domain (e.g., school-related issues, political drama, typhoon response,
+business reviews) and perform sentiment analysis using:
+●​ Lexicon-based methods (VADER, TextBlob, AFINN)
+●​ Traditional ML (TF-IDF + Logistic Regression or Naive Bayes)
+You will compare the performance of these approaches and relate the findings to Affective
+Computing—how machines understand human emotions.
+Each group must consist of 4 members. Regardless of roles, every member must participate in
+data collection (each member contributes a portion of the 500+ comments). Interpretation and
+analysis of results. Writing the final insights and reflections. Presenting the findings.
+
+Ethical Data Collection Protocol
+
+🛑 Students must follow these rules when collecting Facebook comments:
+✔ 1. Collect only public comments
+Only gather data from:
+●​ Public pages
+●​ Public posts
+●​ Public news outlets
+●​ Publicly accessible community pages
+Do NOT collect data from private groups or private individuals.
+✔ 2. Do NOT collect names or personal identifiers
+Only store:
+●​ The comment text
+Prepared by: Love Jhoye M. Raboy, PhD
+CS413 CS Elective 2 (Affective Computing)
+1st Sem, SY2025-2026
+
+The timestamp
+The reaction (optional)
+Never store:
+●​ Usernames
+●​ Profile photos
+●​ Links to personal accounts
+●​ Personal information
+●​
+●​
+
+✔ 3. Do NOT engage or respond to posts
+Students should only observe and collect comments.​
+No interaction allowed.
+✔ 4. If the topic is sensitive (politics, disaster, mental health)
+Use extra caution and avoid storing:
+●​ Personal stories
+●​ Distressing or identifying details
+✔ 5. Allowed Methods
+You may use:
+●​ Manual copying (copy comments to CSV)
+●​ FB comments export tools (public posts only)
+●​ Web scraping tools (only if permitted for public pages)
+Automation must not bypass security or privacy restrictions.
+
+Instructions:
+Required Tasks
+Task 1: Data Collection
+Collect 500+ Facebook /Youtube/Twitter/Tiktok comments.
+Deliverable:
+●​ raw_comments.csv (text only, no names)
+Task 2: Preprocessing
+Perform:
+●​ Cleaning (punctuation, URLs)
+●​ Tokenization
+●​ Stopword removal
+●​ Lemmatization
+Deliverable:
+●​ cleaned_comments.csv
+Task 3: Lexicon-Based Sentiment
+Use at least two of:
+●​ VADER
+Prepared by: Love Jhoye M. Raboy, PhD
+CS413 CS Elective 2 (Affective Computing)
+1st Sem, SY2025-2026
+
+TextBlob
+AFINN
+Compute:
+●​ Polarity scores
+●​ Positive/Negative/Neutral labels
+Deliverable:
+●​ lexicon_results.csv
+●​ Summary charts
+●​
+●​
+
+Task 4: ML-Based Sentiment Analysis
+Use:
+●​ TF-IDF vectorization
+●​ Logistic Regression / Naive Bayes
+Evaluate using:
+●​ Accuracy
+●​ Precision
+●​ Recall
+●​ F1-score
+●​ Confusion matrix
+Deliverable:
+●​ ml_results.txt
+●​ confusion_matrix.png
+Task 5: Comparative Analysis
+Explain:
+●​ Which method performed best?
+●​ Why did lexicons differ from ML?
+●​ What is the emotional distribution of your domain?
+●​ How does this relate to affective computing?
+Task 6: Final Presentation
+1. Title Page​
+Group members, course, instructor, section, topic selected
+2. Introduction​
+Explain your domain and why sentiment analysis matters
+3. Dataset & Collection Process
+●​ Source links
+●​ Ethical steps taken
+●​ Number of comments
+4. Preprocessing Techniques
+●​ Screenshots or summaries
+5. Lexicon Analysis (VADER/TextBlob/AFINN)
+●​ Sample outputs
+●​ Sentiment distribution chart
+6. ML-Based Analysis
+●​ TF-IDF
+●​ Logistic Regression/Naive Bayes results
+Prepared by: Love Jhoye M. Raboy, PhD
+CS413 CS Elective 2 (Affective Computing)
+1st Sem, SY2025-2026
+
+●​ Confusion matrix
+7. Comparison & Discussion
+●​ Which model is best?
+●​ Emotional patterns in your domain
+●​ Challenges
+8. Conclusion + Relation to Affective Computing
+9. References
+
+Prepared by: Love Jhoye M. Raboy, PhD
+CS413 CS Elective 2 (Affective Computing)
+1st Sem, SY2025-2026
+
+Department of Computer Science
+College of Information Technology and Computing
+CS 413 – CS Elective 2 (Affect Computing)
+Laboratory Manual Submission Form
+Sem and SY:
+
+1st Sem, Sy 2025-2026
+
+Topic:
+
+Score:
+
+Week No(s):
+Date:
+Name:
+
+Answer Starts here:
+
+Prepared by: Love Jhoye M. Raboy, PhD
+CS413 CS Elective 2 (Affective Computing)
+1st Sem, SY2025-2026
+
+Course & Section:
+
+
